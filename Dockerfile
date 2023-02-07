@@ -9,7 +9,8 @@ RUN apt update \
   && wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb \
   && apt install -y ./google-chrome-stable_current_amd64.deb \
   && rm -rf google-chrome-stable_current_amd64.deb \
-  && apt install -y gconf-service \
+  && apt install -y build-essential \
+    gconf-service \
     libasound2 \
     libatk1.0-0 \
     libatk-bridge2.0-0 \
