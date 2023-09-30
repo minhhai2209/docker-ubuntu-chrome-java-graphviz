@@ -67,7 +67,7 @@ RUN apt update \
     fonts-ipafont-gothic \
     fonts-wqy-zenhei \
     fonts-tlwg-loma-otf \
-    ttf-ubuntu-font-family \
+    fonts-freefont-ttf \
     openjdk-8-jre \
     graphviz \
 
