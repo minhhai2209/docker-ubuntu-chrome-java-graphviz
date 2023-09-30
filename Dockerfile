@@ -70,6 +70,6 @@ RUN apt update \
     ttf-ubuntu-font-family \
     openjdk-8-jre \
     graphviz \
-    imagemagick
+    imagemagick \
 
   && rm -rf /var/lib/apt/lists/*
