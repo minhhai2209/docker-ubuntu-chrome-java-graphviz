@@ -1,4 +1,4 @@
-FROM ubuntu:22.04
+FROM ubuntu:20.04
 
 ARG DEBIAN_FRONTEND=noninteractive
 
@@ -67,7 +67,7 @@ RUN apt update \
     fonts-ipafont-gothic \
     fonts-wqy-zenhei \
     fonts-tlwg-loma-otf \
-    fonts-freefont-ttf \
+    ttf-ubuntu-font-family \
     openjdk-8-jre \
     graphviz \
 
